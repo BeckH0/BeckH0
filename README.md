@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+My name is Beck Henderson. I am an American student currently studying at Leeds Beckett University in the UK. I also play football for i2i Academy. I have taken multiple programming classes while growing up so I do have some experience in computer programming, but I am looking forward to learning more and gaining more experience!
+
 <!--
 **BeckH0/BeckH0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
