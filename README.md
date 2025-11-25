@@ -1,6 +1,8 @@
 ## Hi there 👋
 
-My name is Beck Henderson. I am an American student currently studying at Leeds Beckett University in the UK. I also play football for i2i Academy. I have taken multiple programming classes while growing up so I do have some experience in computer programming, but I am looking forward to learning and gaining more experience!
+My name is Beck Henderson. I am an American student currently studying at Leeds Beckett University in the UK. I also play football for I2I Academy. I have taken multiple programming classes while growing up so I do have some experience in computer programming, but I am looking forward to learning and gaining more experience!
+
+Here is a link to learn more about what I2I Academy is if you are interested: https://i2isocceracademy.com/
 
 <!--
 **BeckH0/BeckH0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
