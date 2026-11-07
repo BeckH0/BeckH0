@@ -1,0 +1,168 @@
+/* import url("normalize.css"); */
+
+ /* Generic CSS Styling */
+body{
+    font-family: sans-serif;
+}
+
+h3{
+    font-style: italic;
+}
+
+/* Header CSS Syling */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: lightblue;
+}
+
+header hgroup{
+    padding-left: .5em;
+}
+
+header p{
+    font-weight: bold;
+}
+
+figure{
+    margin: .5em;
+}
+
+figcaption{
+    font-size: small;
+}
+
+.contact-email .contact-value a img,
+.contact-github .contact-value a img {
+  width: 26px;
+  height: 26px;
+}
+
+.contact-email, .contact-github {
+  display: inline-block;
+  vertical-align: top;
+  font-size: small;
+  margin: 0;
+}
+
+.contact-email .contact-value, .contact-github .contact-value {
+  margin-left: 0;
+  text-align: center;
+}
+
+.contact-email{
+    padding-right: .8em;
+}
+
+#janedoe{
+    width: 86px;
+    height: 86px;
+}
+
+/* Generic styling applying to each section */
+#about, #skillset, #education, #employment-history, #interests {
+    display: grid;
+    grid-template-columns: 7em 1fr;
+    column-gap: 1em;
+    font-style: italic;
+}
+
+/* About Section CSS */
+#about p{
+    border-left: 2px solid grey;
+    padding-left: .5em;
+    color: grey;
+}
+
+/* Skillset Section CSS */
+#skillset .skills {
+    border-left: 2px solid grey;
+    padding-left: .5em;
+    color: grey;
+}
+
+#skillset .skill{
+    display: flex;
+    gap: .75em;
+}
+
+#skillset .skill::after{
+    color: black;
+    letter-spacing: .1em;
+}
+
+#skillset .skill[data-skill="9"]::after{
+    content: "★★★★★";
+}
+
+#skillset .skill[data-skill="7"]::after{
+    content: "★★★★";
+}
+
+#skillset .skill[data-skill="5"]::after{
+    content: "★★★";
+}
+
+#skillset .skill[data-skill="3"]::after{
+    content: "★★";
+}
+
+/* .cv-item-list class styling */
+.cv-item-list {
+    border-left: 2px solid grey;
+    padding-left: .5em;
+    color: grey;
+    margin-top: 1em;
+    font-style: normal;
+}
+
+/* Education Section CSS */
+.cv-item hgroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cv-item-heading{
+    color: teal;
+    margin-bottom: 1em;
+}
+
+.subject, .award{
+    color: rgb(29 194 194);
+}
+
+.cv-item-date{
+    margin: 0;
+    text-align: right;
+}
+
+#education h5{
+    font-weight: bold;
+    color: black;
+    margin-top: 0;
+}
+
+#education .skills{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 6px 4px;
+}
+
+#education .skill {
+    color: white;
+    padding: .5em 4em;
+}
+
+#education .skill.university{
+    background-color: darkgreen;
+}
+
+#education .skill.alevel{
+    background-color: rgb(128 32 128);
+}
+
+#education .skill.gcse{
+    background-color: rgb(37 95 95);
+}
