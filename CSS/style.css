@@ -55,9 +55,9 @@ figcaption{
     padding-right: .8em;
 }
 
-#janedoe{
+#beckhenderson{
     width: 86px;
-    height: 86px;
+    height: 115px;
 }
 
 /* Generic styling applying to each section */
@@ -104,7 +104,7 @@ figcaption{
     content: "★★★";
 }
 
-#skillset .skill[data-skill="3"]::after{
+#skillset .skill[data-skill="2"]::after{
     content: "★★";
 }
 
