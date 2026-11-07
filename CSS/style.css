@@ -148,6 +148,7 @@ figcaption{
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: 6px 4px;
+    font-size: smaller;
 }
 
 #education .skill {
@@ -156,11 +157,11 @@ figcaption{
 }
 
 #education .skill.university{
-    background-color: darkgreen;
+    background-color: teal;
 }
 
 #education .skill.alevel{
-    background-color: rgb(128 32 128);
+    background-color: teal;
 }
 
 #education .skill.gcse{
