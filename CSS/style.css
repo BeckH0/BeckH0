@@ -61,7 +61,7 @@ figcaption{
 }
 
 /* Generic styling applying to each section */
-#about, #skillset, #education, #employment-history, #interests {
+#about, #skillset, #education, #courses, #employment-history, #interests {
     display: grid;
     grid-template-columns: 7em 1fr;
     column-gap: 1em;
